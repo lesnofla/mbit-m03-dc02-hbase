@@ -1,0 +1,9 @@
+/*
+/* Descargar Cloudera Quickstart VM para VirtualBox:
+/* 
+/* https://www.cloudera.com/downloads/cdp-data-center-trial.html
+/* 
+/* Tip 1: una vez lanzada la VM de Cloudera Quickstart (8GB RAM recomendables), desde un terminal de Linux teclear "hbase shell" para lanzar el interfaz de HBase. En caso de que dé algún fallo, intentar con "sudo hbase shell". Cerciorarse desde Cloudera Manager de que todos los servicios están corriendo.
+/* 
+/* Tip 2: para importar una base de datos externa a una tabla creada en HBase mediante el método "sqoop import", tener la precaución de lanzar el comando desde un terminal de Linux, no desde la shell interna de HBase.
+/*
